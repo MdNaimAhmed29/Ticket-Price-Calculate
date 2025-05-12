@@ -39,5 +39,5 @@ try:
     print(f"Discount: {discount:.2f} BDT")
     print(f"Discounted price: {discounted_price:.2f} BDT")
 
-except ValueError as e:
-    print(f"Invalid input. {e}")
+except ValueError as error:
+    print(f"Invalid input. {error}")
